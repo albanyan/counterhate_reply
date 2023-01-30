@@ -18,27 +18,27 @@ EXP = [
 
 def preprocess_dataframe_tweets(df, col):
     # remove URL
-    df[col + "_proc"] = df[col].str.replace(r"http(\S)+", r"")
-    df[col + "_proc"] = df[col + "_proc"].str.replace(r"http ...", r"")
-    df[col + "_proc"] = df[col + "_proc"].str.replace(r"http", r"")
+    df[col + "_proc"] = df[col].str.replace(r"http(\S)+", r"", regex=True)
+    df[col + "_proc"] = df[col + "_proc"].str.replace(r"http ...", r"", regex=True)
+    df[col + "_proc"] = df[col + "_proc"].str.replace(r"http", r"", regex=True)
     # remove RT, @
-    df[col + "_proc"] = df[col + "_proc"].str.replace(r"(RT|rt)[ ]*@[ ]*[\S]+", r"")
+    df[col + "_proc"] = df[col + "_proc"].str.replace(r"(RT|rt)[ ]*@[ ]*[\S]+", r"", regex=True)
     df[df[col + "_proc"].str.contains(r"RT[ ]?@")]
-    df[col + "_proc"] = df[col + "_proc"].str.replace(r"@[\S]+", r"")
+    df[col + "_proc"] = df[col + "_proc"].str.replace(r"@[\S]+", r"", regex=True)
     # remove non-ascii words and characters
     df[col + "_proc"] = [
         "".join([i if ord(i) < 128 else "" for i in text]) for text in df[col + "_proc"]
     ]
-    df[col + "_proc"] = df[col + "_proc"].str.replace(r"_[\S]?", r"")
+    df[col + "_proc"] = df[col + "_proc"].str.replace(r"_[\S]?", r"", regex=True)
     # remove &, < and >
-    df[col + "_proc"] = df[col + "_proc"].str.replace(r"&amp;?", r"and")
-    df[col + "_proc"] = df[col + "_proc"].str.replace(r"&lt;", r"<")
-    df[col + "_proc"] = df[col + "_proc"].str.replace(r"&gt;", r">")
+    df[col + "_proc"] = df[col + "_proc"].str.replace(r"&amp;?", r"and", regex=True)
+    df[col + "_proc"] = df[col + "_proc"].str.replace(r"&lt;", r"<", regex=True)
+    df[col + "_proc"] = df[col + "_proc"].str.replace(r"&gt;", r">", regex=True)
     # remove extra space
-    df[col + "_proc"] = df[col + "_proc"].str.replace(r"[ ]{2, }", r" ")
+    df[col + "_proc"] = df[col + "_proc"].str.replace(r"[ ]{2, }", r" ", regex=True)
     # insert space between punctuation marks
-    df[col + "_proc"] = df[col + "_proc"].str.replace(r"([\w\d]+)([^\w\d ]+)", r"\1 \2")
-    df[col + "_proc"] = df[col + "_proc"].str.replace(r"([^\w\d ]+)([\w\d]+)", r"\1 \2")
+    df[col + "_proc"] = df[col + "_proc"].str.replace(r"([\w\d]+)([^\w\d ]+)", r"\1 \2", regex=True)
+    df[col + "_proc"] = df[col + "_proc"].str.replace(r"([^\w\d ]+)([\w\d]+)", r"\1 \2", regex=True)
     # lower case and strip white spaces at both ends
     df[col + "_proc"] = df[col + "_proc"].str.lower()
     df[col + "_proc"] = df[col + "_proc"].str.strip()
