@@ -6,7 +6,7 @@ This repository contains the corpus and code of the *SEM-23 paper "Not All Count
 [[supplementary materials](/Docs/hate-twitter-supplemental.pdf)]-->
 
 ## Introduction
-In this study, we aim to identify the kind of replies counterhate tweets elicit. Specifically, we investigate replies to counterhate tweets beyond whether the reply agrees or disagrees with the counterhate tweet:
+In this study, we aim to identify the kind of replies counterhate tweets elicit. Specifically, we investigate replies to counterhate tweets beyond whether the reply agrees or disagrees with the counterhate tweet by answering the following questions:
 
 * Q1: Does the reply _agree_ with the counterhate tweet?
 * If Q1 is _No_ (the reply disagrees with the counterhate tweet):
