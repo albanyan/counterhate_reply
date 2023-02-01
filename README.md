@@ -1,20 +1,19 @@
 # Hateful Tweets and Replies
 
-This repository contains the corpus and code of the AAAI-22 paper "Pinpointing Fine-Grained Relationships
-between Hateful Tweets and Replies". Authors: Abdullah Albanyan and Eduardo Blanco.
+This repository contains the corpus and code of the *SEM-23 paper "Not All Counterhate Tweets Elicit the Same Replies: A Fine-Grained Analysis". Authors: Abdullah Albanyan, Ahmed Hassan, and Eduardo Blanco.
 <br />
-[[paper link](https://ojs.aaai.org/index.php/AAAI/article/view/21284)]
-[[supplementary materials](/Docs/hate-twitter-supplemental.pdf)]
+<!--[[paper link](https://ojs.aaai.org/index.php/AAAI/article/view/21284)]
+[[supplementary materials](/Docs/hate-twitter-supplemental.pdf)]-->
 
 ## Introduction
-In this work, we investigate hate and counter hate speech in Twitter. We work with hateful tweets and replies, and study the relationships between them beyond whether the reply counters the hateful tweet. In particular:
+In this study, we aim to identify the kind of replies counterhate tweets elicit. Specifically, we investigate replies to counterhate tweets beyond whether the reply agrees or disagrees with the counterhate tweet:
 
-* Q1: Does the reply contain _counter hate_?
-* If Q1 is _Yes_ (the reply counters the hateful tweet):
-   * Q2: Provides a _justification_?
-   * Q3: _Attacks the author_ of the original tweet?
-* If Q1 is _No_ (the reply agrees with the hateful tweet):
-   * Q4: Adds _additional hate_?
+* Q1: Does the reply _agree_ with the counterhate tweet?
+* If Q1 is _No_ (the reply disagrees with the counterhate tweet):
+   * Q2: _Supports_ the hateful tweet?
+   * Q3: _Attacks the author_ of the counterhate tweet?
+* If Q1 is _Yes_ (the reply agrees with the counterhate tweet):
+   * Q4: Adds _additional counterhate_?
 
 
 
