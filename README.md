@@ -23,14 +23,14 @@ The following Twitter thread originating with a hateful tweet. In the first exam
 
 <p align="center">
  <kbd>
-<img  src="Docs/figs/reply1.png" width=50% height=50%>
+<img  src="Docs/figs/reply1.png" width=70% height=70%>
   </kbd>
 </p>
 
 On the other hand, the second reply not only disagrees with the counterhate tweet, but also shows support for the hateful tweet:
 <p align="center">
  <kbd>
-<img src="Docs/figs/reply2.png" width=50% height=50%>
+<img src="Docs/figs/reply2.png" width=70% height=70%>
   </kbd>
 </p>
 
