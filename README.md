@@ -19,13 +19,13 @@ In this study, we aim to identify the kind of replies counterhate tweets elicit.
 
 ## Example
 
-The following Twitter thread originating with a hateful tweet. In the first example, the reply not only agrees with the counterhate tweet, but also adds additional counterhate:
+The following Twitter thread originating with a hateful tweet. In the first example, The reply to the first counterhate tweet not only agrees with the counterhate tweet, but also includes additional counterhate (i.e., he’s done a great job):
 
 <p align="center">
 <img  src="Docs/figs/reply1.png" width=70% height=70%>
 </p>
 
-On the other hand, the second reply not only disagrees with the counterhate tweet, but also shows support for the hateful tweet:
+Conversely, the reply to the second counterhate tweet not only disagrees with the counterhate tweet, but also includes an opinion supporting the hateful tweet (i.e., letting convicted criminals run free):
 <p align="center">
 <img src="Docs/figs/reply2.png" width=70% height=70%>
 </p>
