@@ -22,16 +22,12 @@ In this study, we aim to identify the kind of replies counterhate tweets elicit.
 The following Twitter thread originating with a hateful tweet. In the first example, the reply not only agrees with the counterhate tweet, but also adds additional counterhate:
 
 <p align="center">
- <kbd>
 <img  src="Docs/figs/reply1.png" width=70% height=70%>
-  </kbd>
 </p>
 
 On the other hand, the second reply not only disagrees with the counterhate tweet, but also shows support for the hateful tweet:
 <p align="center">
- <kbd>
 <img src="Docs/figs/reply2.png" width=70% height=70%>
-  </kbd>
 </p>
 
 <!-- ****************************************************************************************** 
