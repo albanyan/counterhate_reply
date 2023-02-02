@@ -19,28 +19,22 @@ In this study, we aim to identify the kind of replies counterhate tweets elicit.
 
 ## Example
 
-Consider the following hateful tweet which attacks Michelle Obama's physical appearance:
+The following Twitter thread originating with a hateful tweet. In the first example, the reply not only agrees with the counterhate tweet, but also adds additional counterhate:
+
 <p align="center">
  <kbd>
-<img  src="Docs/figs/tweet.png" width=50% height=50%>
+<img  src="Docs/figs/reply1.png" width=50% height=50%>
   </kbd>
 </p>
 
-This reply disapproves of the hateful tweet and provides an opinion or a justification about Michelle Obama:
+On the other hand, the second reply not only disagrees with the counterhate tweet, but also shows support for the hateful tweet:
 <p align="center">
  <kbd>
-<img src="Docs/figs/reply1.png" width=50% height=50%>
-  </kbd>
-</p>
-
-This reply approves of the hateful tweet and uses sarcasm to introduce additional hate (not being pretty vs. being a male):
-<p align="center">
-  <kbd>
 <img src="Docs/figs/reply2.png" width=50% height=50%>
   </kbd>
 </p>
 
-<!-- ****************************************************************************************** -->
+<!-- ****************************************************************************************** 
 ## Citation
 
 ```
@@ -59,3 +53,4 @@ This reply approves of the hateful tweet and uses sarcasm to introduce additiona
   month_numeric = {6}
 }
 ```
+-->
