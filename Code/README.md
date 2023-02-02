@@ -10,7 +10,7 @@ Fatch tweets using the provided tweets IDs for hateful and reply tweets in " \da
 ## Preparing the Dataset
 To prepare the dataset for training, run the following command:
 ```
-python prepare_data.py --csv-file {file_path} --question {question_number} --model-name {model_name} --output-dir {output_path}
+python prepare_data.py --csv-file {file_path} --question {question_number} --output-dir {output_path}
 ```
 Where:  
 `file_path`: path of the .csv data file.  
@@ -19,7 +19,7 @@ Where:
 
 ## Training
 ```
-python train.py --data-dir {processed_data_path} --output-dir {output_path} --model-name {model_name}
+python train.py --data-dir {processed_data_path} --output-dir {output_path}
 ```
 Where:  
 `processed_data_path`: directory of the processed data (default is ./Dataloaders/).  
