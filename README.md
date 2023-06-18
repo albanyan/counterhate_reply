@@ -1,4 +1,4 @@
-# Mitigating the risks of counterhate replies on Twitter
+# Mitigating the Risks of Counterhate Replies on Social Media
 
 This repository contains the corpus and code of the *SEM-23 paper "Not All Counterhate Tweets Elicit the Same Replies: A Fine-Grained Analysis". Authors: Abdullah Albanyan, Ahmed Hassan, and Eduardo Blanco.
 <br />
