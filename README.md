@@ -1,12 +1,11 @@
 # Mitigating the Risks of Counterhate Replies on Social Media
 
-This repository contains the corpus and code of the [*SEM-23](https://sites.google.com/view/starsem2023/accepted-papers?authuser=0) paper "Not All Counterhate Tweets Elicit the Same Replies: A Fine-Grained Analysis". Authors: Abdullah Albanyan, Ahmed Hassan, and Eduardo Blanco.
+This repository contains the corpus and code of the [*SEM-23](https://sites.google.com/view/starsem2023/accepted-papers?authuser=0) (co-located with [ACL 2023](https://acl.swoogo.com/ACL2023/)) paper "Not All Counterhate Tweets Elicit the Same Replies: A Fine-Grained Analysis." Authors: Abdullah Albanyan, Ahmed Hassan, and Eduardo Blanco.
 <br />
-<!--[[paper link](https://ojs.aaai.org/index.php/AAAI/article/view/21284)]
-[[supplementary materials](/Docs/hate-twitter-supplemental.pdf)]-->
+[[paper link](https://aclanthology.org/2023.starsem-1.8/)]
 
 ## Introduction
-In this study, we aim to identify the kind of replies counterhate tweets elicit. Specifically, we investigate replies to counterhate tweets beyond whether the reply agrees or disagrees with the counterhate tweet by answering the following questions:
+This study aims to identify the kind of replies counterhate tweets elicit. Specifically, we investigate replies to counterhate tweets beyond whether the reply agrees or disagrees with the counterhate tweet by answering the following questions:
 
 * Q1: Does the reply _agree_ with the counterhate tweet?
 * If Q1 is _No_ (the reply disagrees with the counterhate tweet):
@@ -19,34 +18,33 @@ In this study, we aim to identify the kind of replies counterhate tweets elicit.
 
 ## Example
 
-The following Twitter thread originating with a hateful tweet. In the first example, The reply to the first counterhate tweet not only agrees with the counterhate tweet, but also includes additional counterhate (i.e., he’s done a great job):
+The following Twitter thread originated with a hateful tweet. In the first example, The reply to the first counterhate tweet not only agrees with the counterhate tweet but also includes additional counterhate (i.e., he’s done a great job):
 
 <p align="center">
 <img  src="Docs/figs/reply1.png" width=70% height=70%>
 </p>
 
-Conversely, the reply to the second counterhate tweet not only disagrees with the counterhate tweet, but also includes an opinion supporting the hateful tweet (i.e., letting convicted criminals run free):
+Conversely, the reply to the second counterhate tweet not only disagrees with the counterhate tweet but also includes an opinion supporting the hateful tweet (i.e., letting convicted criminals run free):
 <p align="center">
 <img src="Docs/figs/reply2.png" width=70% height=70%>
 </p>
 
-<!-- ****************************************************************************************** 
 ## Citation
 
 ```
-@article{Albanyan_Blanco_2022,
-  title = {Pinpointing Fine-Grained Relationships between Hateful Tweets and Replies},
-  volume = {36},
-  url = {https://ojs.aaai.org/index.php/AAAI/article/view/21284},
-  doi = {10.1609/aaai.v36i10.21284},
-  abstractnote = {Recent studies in the hate and counter hate domain have provided the grounds for investigating how to detect this pervasive content in social media. These studies mostly work with synthetic replies to hateful content written by annotators on demand rather than replies written by real users. We argue that working with naturally occurring replies to hateful content is key to study the problem. Building on this motivation, we create a corpus of 5,652 hateful tweets and replies. We analyze their fine-grained relationships by indicating whether the reply (a) is hate or counter hate speech, (b) provides a justification, (c) attacks the author of the tweet, and (d) adds additional hate. We also present linguistic insights into the language people use depending on these fine-grained relationships. Experimental results show improvements (a) taking into account the hateful tweet in addition to the reply and (b) pretraining with related tasks.},
-  number = {10},
-  journal = {Proceedings of the AAAI Conference on Artificial Intelligence},
-  author = {Albanyan, Abdullah and Blanco, Eduardo},
-  year = {2022},
-  month = jun,
-  pages = {10418-10426},
-  month_numeric = {6}
+@inproceedings{albanyan-etal-2023-counterhate,
+    title = "Not All Counterhate Tweets Elicit the Same Replies: A Fine-Grained Analysis",
+    author = "Albanyan, Abdullah  and
+      Hassan, Ahmed  and
+      Blanco, Eduardo",
+    booktitle = "Proceedings of the The 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.starsem-1.8",
+    pages = "71--88",
+    abstract = "Counterhate arguments can effectively fight and limit the spread of hate speech. However, they can also exacerbate the hate, as some people may respond with aggression if they feel threatened or targeted by the counterhate. In this paper, we investigate replies to counterhate arguments beyond whether the reply agrees or disagrees with the counterhate argument. We present a corpus with 2,621 replies to counterhate arguments countering hateful tweets, and annotate them with fine-grained characteristics. We show that (a) half of the replies (51{\%}) to the counterhate arguments disagree with the argument, and (b) this kind of reply often supports the hateful tweet (40{\%}). We also analyze the language of counterhate arguments that elicit certain types of replies. Experimental results show that it is feasible to anticipate the kind of replies a counterhate argument will elicit.",
 }
+
 ```
--->
